@@ -1,7 +1,7 @@
 from dicom_utils import reader, display, transform
 from matplotlib import pyplot as plt
 
-slices = reader.read_ct("data/input/COD0005")#("C:\\Users/farah/Desktop/COVID-19/Healthy/2", select_only_size=1024)
+slices = reader.read_ct("data/input/COD0005")
 print("Slices length: ", len(slices))
 #display.plot_3d(slices, 200)
 
